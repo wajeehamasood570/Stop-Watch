@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="text"> STOP WATCH
+            </div>
+            <div class="circle">
+                <div class="cont">
+                    <b id="hour">00</b>
+                    <b>:</b>
+                    <b id="min">00</b>
+                    <b>:</b>
+
+                    <b id="sec">00</b>
+                </div>
+            </div>
+            <div class="timer_Controls">
+                <!-- ------Play button coding------------------------ -->
+                <div class="play_btn">
+                    <div class="play" id="Btn" onclick="startTimer()"> <i class="fas fa-play"></i></div>
+                </div>
+
+                <!-- -------Stop button coding-------------------------------------- -->
+                <div class="stop_btn">
+                    <div class="stop" onclick="stopTimer()"> <i class="fas fa-stop"></i></div>
+                </div>
+
+                <!-- -------reset icon coding-------------------------------------  -->
+                <div class="reset_btn">
+                    <div class="reset" onclick="resetTimer()"> <img src="reset-png.png" alt=""></div>
+                </div>
+            </div>
+            <div class="snap">
+                
+            <div class="row" id="laps" onclick="lapTimer()" ><i  class="fa fa-camera" aria-hidden="true"></i>
+                <h1>RECORDS</h1>
+                <!-- <div class="laps">
+                    <b id="hour">00</b>
+                    <b>:</b>
+                    <b id="min">00</b>
+                    <b>:</b>
+
+                    <b id="sec">00</b> -->
+                </div>
+            </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+</body>
+<script src="app.js">
+
+</script>
+
+</html>

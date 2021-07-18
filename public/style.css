@@ -1,0 +1,176 @@
+body{
+    background: #4B79A1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgb(73, 108, 139), #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* background-color: rgba(7, 7, 8, 0.932); */
+      width: 100%;
+  }
+  
+  .main{
+      width:30%;
+      border:  2px solid rgba(12, 6, 6, 0.603);
+      background-color: rgba(5, 3, 5, 0.829);
+     
+  
+      border-radius: 10%;
+      height:auto;
+      text-align: center;
+      font-family: sans-serif;
+      font-weight: bold;
+      margin: 30px auto;
+      color: whitesmoke;
+  }
+  .text{
+      margin-top: 3px;
+  }
+  .circle{
+    position: relative;
+      width:70%;
+      text-align: center;
+      color: whitesmoke;
+      margin: 53px auto;
+      border: 3px dotted rgb(71, 69, 69);
+      border-radius: 50%;
+      height: 200px;
+      
+  }
+  .cont{
+      position: absolute;
+      bottom: 45%;
+      left: 30%;
+      font-size: 20px;
+  }
+  .timer_Controls{
+      display: flex;
+      justify-content: column;
+      
+    
+  }
+  
+  .play_btn{
+  background-color: rgba(202, 112, 96, 0.925);
+  border-radius: 50%;
+  width: 15%;
+  height: 40px;
+  margin: 0px auto;
+  }
+  .fa-play{
+      margin-top: 13px;
+  }
+  
+  .stop_btn{
+      position: absolute;
+      background-color: rgba(202, 112, 96, 0.925);
+      border-radius: 50%;
+      width: 4%;
+      height: 40px;
+  top: 420px;
+  left: 498px;
+  
+      }
+      .fa-stop{
+          color: white;
+          margin: 13px auto auto 0px; 
+      
+      }
+  
+      .reset_btn{
+      position: absolute;
+          background-color: rgba(202, 112, 96, 0.925);
+          border-radius: 50%;
+          width: 4%;
+          height: 45px;
+      top: 420px;
+      right: 480px;
+      
+          }
+          .reset img{
+              width: 40%;
+             
+         font-weight: bold;
+              margin: 14px 5px auto 5px; 
+          
+          }
+          h1{
+              margin: 30px auto auto -60px;
+          }
+  
+  
+          .laps{
+              
+              list-style: none;
+              margin: 0;
+              padding-left: 0;
+              border-top: 1px solid #333;
+              font-size: 16px;
+              color: #fff;
+              position: absolute;
+              margin-bottom: 10px;           
+          }
+          .snap{
+              margin: 20px auto 10px auto; 
+              width:50%;
+              color: #fff;
+              background-color: rgba(202, 112, 96, 0.925);
+      border-radius: 50%;
+      width: 12%;
+      height: 40px;
+  
+          }
+          #laps{
+              text-align: center;
+              font-family: sans-serif;
+              margin-top: 10px;
+          }
+          
+          .row {
+              margin: 20px auto 10px auto; 
+              width:50%;
+              color: #fff;
+             
+      width: 14%;
+      height: 40px;
+      
+             
+          }
+      .fa-camera{
+          margin-top: 12px;
+          margin-left: -5px;
+      }      
+          @media only screen and (max-width: 780px)
+          {
+              .main{
+                  width: 50%;
+              }
+              .stop_btn{
+                  left: 225px;
+                  width: 7%;
+              }
+              .reset_btn{
+                  right: 205px;
+                  width: 8%;
+              }
+              .cont{
+                  left: 30%;
+              }
+          }
+  
+  
+          /* ---for mobile phones */
+  @media only screen and (max-width: 480px)
+  {
+      .main{
+          width: 80%;
+      }
+      .stop_btn{
+          left: 72px;
+          width: 10%;
+      }
+      .reset_btn{
+          right: 51px;
+          width: 13%;
+      }
+      .cont{
+          left: 26%;
+      }
+  }
